@@ -1,0 +1,152 @@
+body {
+    background-color: rgb(244, 246, 248);
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: #6E8098;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 28px;
+    line-height: 34px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 29px;
+    color: #19202D;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 24px;
+    color: #19202D;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #5964E0;
+}
+
+h1 {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.btn {
+    width: 123px;
+    height: 48px;
+}
+
+.switch-mode {
+    width: 125px;
+    height: 24px;
+    /* background-color: red; */
+}
+
+.select-div>.switch-mode {
+    padding: 0;
+    margin: 0;
+    width: 60px;
+}
+
+.button-default {
+    color: white;
+    background-color: #5964E0;
+
+}
+
+.card-body>.img-container {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -40px;
+}
+
+.search-bar {
+    background-color: white;
+
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -25px;
+}
+
+.button-light {
+    color: #5964E0;
+    background-color: #EEEFFC;
+}
+
+.header {
+    background-image: url('assets/desktop/bg-pattern-header.svg');
+    height: 160px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.logo {
+    width: 115px;
+    height: 32px;
+}
+
+#card-container {
+    width: 80%;
+    width: calc(100% - 7vw);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    width: 23.3vw;
+    min-width: 327px;
+
+    height: 253px;
+    background-color: white;
+}
+
+.card-dark-mode {
+    background-color: #19202D !important;
+
+}
+
+.link-dark-mode {
+    color: white !important;
+}
+
+.body-dark-mode {
+    background-color: #121721 !important;
+}
+
+.full-time-dark-mode {
+    background-color: #6E8098 !important;
+}
+
+@media only screen and (max-width: 400px) {
+    .header {
+        background-image: url("assets/tablet/bg-pattern-header.svg");
+    }
+
+    .search-bar {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .header {
+        background-image: url("assets/mobile/bg-pattern-header.svg");
+    }
+
+    .search-bar {
+        width: 80%;
+    }
+}
